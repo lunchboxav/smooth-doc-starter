@@ -8,5 +8,12 @@ module.exports = {
         siteUrl: "https://example.com",
       },
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/pages/posts`,
+        name: 'posts',
+      },
+    },
   ],
 };
